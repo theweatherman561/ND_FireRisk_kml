@@ -2,7 +2,7 @@ name: Create ND Fire Risk kml
 
 on:
   schedule:
-    - cron: '45 * * * *' # Every minute (for testing purposes)
+    - cron: '23 0/3 * * *' # Every minute (for testing purposes)
   workflow_dispatch:
 
 jobs:
