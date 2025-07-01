@@ -3,10 +3,8 @@ import xml.etree.ElementTree as ET
 import requests
 from io import BytesIO
 
-# Web URL to your PNG
 PNG_URL = "https://gis.des.nd.gov/NDDESFireIndex.png"
 
-# Fetch the image from the web
 response = requests.get(PNG_URL)
 response.raise_for_status()  # Will raise an error if download fails
 
